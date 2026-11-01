@@ -1,0 +1,8 @@
+bp3mitloader.X/build/
+bp3mitloader.X/dist/
+bp3mitloader.X/debug/
+bp3mitloader.X/nbproject/private/
+bp3mitloader.X/nbproject/Makefile-*
+bp3mitloader.X/nbproject/Package-*.bash
+bp3mitloader.X/.generated_files/
+__pycache__/

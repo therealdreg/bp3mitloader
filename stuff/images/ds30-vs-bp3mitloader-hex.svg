@@ -1,0 +1,742 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="561" viewBox="0 0 840 561" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<rect x="0.5" y="0.5" width="839" height="560" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<text x="24.0" y="34.0" font-size="18" fill="#1f2328" font-weight="600">The bootloader page, word by word</text>
+<text x="24.0" y="56.0" font-size="12.5" fill="#59636e">Each cell is one word of bp3mitloader.hex, colored by the word of v4.5 at the same address.</text>
+<rect x="24.0" y="76" width="12" height="12" rx="2" fill="#57606a"/>
+<text x="41.0" y="86.0" font-size="12" fill="#1f2328">different word: 222</text>
+<rect x="182.7" y="76" width="12" height="12" rx="2" fill="#8c959f"/>
+<text x="199.7" y="86.0" font-size="12" fill="#1f2328">v4.5 empty here: 111</text>
+<rect x="347.7" y="76" width="12" height="12" rx="2" fill="#f5c542" stroke="#9a6700" stroke-width="1.5"/>
+<text x="364.7" y="86.0" font-size="12" fill="#1f2328">same word: 4</text>
+<rect x="462.3" y="76" width="12" height="12" rx="2" fill="#eef1f4"/>
+<text x="479.3" y="86.0" font-size="12" fill="#1f2328">empty in both: 175</text>
+<text x="24.0" y="120.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A800</text>
+<rect x="82" y="108" width="44" height="17" rx="2" fill="#f5c542" stroke="#9a6700" stroke-width="1.5"/>
+<text x="104.0" y="120.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">208C2F</text>
+<rect x="128" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">209000</text>
+<rect x="174" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">880100</text>
+<rect x="220" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">000000</text>
+<rect x="266" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A90745</text>
+<rect x="312" y="108" width="44" height="17" rx="2" fill="#f5c542" stroke="#9a6700" stroke-width="1.5"/>
+<text x="334.0" y="120.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2FFFF0</text>
+<rect x="358" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">AFA742</text>
+<rect x="404" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">370002</text>
+<rect x="450" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E90000</text>
+<rect x="496" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3AFFFC</text>
+<rect x="542" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB0400</text>
+<rect x="588" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB0300</text>
+<rect x="634" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB0380</text>
+<rect x="680" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">227F61</text>
+<rect x="726" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="748.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">24F470</text>
+<rect x="772" y="108" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="794.0" y="120.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E10011</text>
+<text x="24.0" y="139.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A820</text>
+<rect x="82" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="104.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3A0005</text>
+<rect x="128" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">257460</text>
+<rect x="174" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">900111</text>
+<rect x="220" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E10002</text>
+<rect x="266" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3A0001</text>
+<rect x="312" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="334.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200016</text>
+<rect x="358" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB1880</text>
+<rect x="404" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB1880</text>
+<rect x="450" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FB8211</text>
+<rect x="496" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB5880</text>
+<rect x="542" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E80081</text>
+<rect x="588" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">259260</text>
+<rect x="634" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E10011</text>
+<rect x="680" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3A0007</text>
+<rect x="726" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="748.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">231410</text>
+<rect x="772" y="127" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="794.0" y="139.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">900111</text>
+<text x="24.0" y="158.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A840</text>
+<rect x="82" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="104.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E10002</text>
+<rect x="128" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3A0003</text>
+<rect x="174" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E00004</text>
+<rect x="220" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">320001</text>
+<rect x="266" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200017</text>
+<rect x="312" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="334.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB1880</text>
+<rect x="358" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB0880</text>
+<rect x="404" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E00006</text>
+<rect x="450" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">320004</text>
+<rect x="496" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">0700C3</text>
+<rect x="542" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">320002</text>
+<rect x="588" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">04A7FC</text>
+<rect x="634" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">000000</text>
+<rect x="680" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E00007</text>
+<rect x="726" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="748.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">320002</text>
+<rect x="772" y="146" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="794.0" y="158.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A00008</text>
+<text x="24.0" y="177.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A860</text>
+<rect x="82" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="104.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">37000F</text>
+<rect x="128" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EFA32C</text>
+<rect x="174" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A902CC</text>
+<rect x="220" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A902C8</text>
+<rect x="266" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A8A068</text>
+<rect x="312" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="334.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">093FFF</text>
+<rect x="358" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">000000</text>
+<rect x="404" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">AE22CA</text>
+<rect x="450" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">370007</text>
+<rect x="496" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">0700B3</text>
+<rect x="542" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">320005</text>
+<rect x="588" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A9A068</text>
+<rect x="634" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A802C8</text>
+<rect x="680" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EF232C</text>
+<rect x="726" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="748.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">04A7FC</text>
+<rect x="772" y="165" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="794.0" y="177.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">000000</text>
+<text x="24.0" y="196.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A880</text>
+<rect x="82" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="104.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EFA32C</text>
+<rect x="128" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A822C4</text>
+<rect x="174" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A922C0</text>
+<rect x="220" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">21F050</text>
+<rect x="266" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">883520</text>
+<rect x="312" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="334.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200030</text>
+<rect x="358" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">883620</text>
+<rect x="404" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200220</text>
+<rect x="450" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">881140</text>
+<rect x="496" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">280080</text>
+<rect x="542" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">881100</text>
+<rect x="588" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A84223</text>
+<rect x="634" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EFA102</text>
+<rect x="680" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EF2100</text>
+<rect x="726" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="748.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">280300</text>
+<rect x="772" y="184" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="794.0" y="196.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">880820</text>
+<text x="24.0" y="215.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A8A0</text>
+<rect x="82" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="104.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB8480</text>
+<rect x="128" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">0700A4</text>
+<rect x="174" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">310010</text>
+<rect x="220" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200C11</text>
+<rect x="266" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E10401</text>
+<rect x="312" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="334.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">32000F</text>
+<rect x="358" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200E41</text>
+<rect x="404" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E10401</text>
+<rect x="450" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3A0002</text>
+<rect x="496" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">070088</text>
+<rect x="542" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">37FFF5</text>
+<rect x="588" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200420</text>
+<rect x="634" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">0700A9</text>
+<rect x="680" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2004C0</text>
+<rect x="726" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="748.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">0700A7</text>
+<rect x="772" y="203" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="794.0" y="215.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200340</text>
+<text x="24.0" y="234.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A8C0</text>
+<rect x="82" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="104.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">0700A5</text>
+<rect x="128" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2002B0</text>
+<rect x="174" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">0700A3</text>
+<rect x="220" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">07007A</text>
+<rect x="266" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">37FFEB</text>
+<rect x="312" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="334.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB8480</text>
+<rect x="358" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200D40</text>
+<rect x="404" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">07009E</text>
+<rect x="450" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200010</text>
+<rect x="496" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">07009C</text>
+<rect x="542" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200020</text>
+<rect x="588" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">07009A</text>
+<rect x="634" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2004B0</text>
+<rect x="680" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">070098</text>
+<rect x="726" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="748.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">070087</text>
+<rect x="772" y="222" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="794.0" y="234.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">31FFF3</text>
+<text x="24.0" y="253.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A8E0</text>
+<rect x="82" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="104.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200C11</text>
+<rect x="128" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E10401</text>
+<rect x="174" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">32FFF2</text>
+<rect x="220" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200E41</text>
+<rect x="266" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E10401</text>
+<rect x="312" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="334.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3A0002</text>
+<rect x="358" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">07006B</text>
+<rect x="404" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">37FFF6</text>
+<rect x="450" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">780500</text>
+<rect x="496" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">780580</text>
+<rect x="542" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">07007B</text>
+<rect x="588" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">31FFE7</text>
+<rect x="634" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">40050A</text>
+<rect x="680" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">DD0648</text>
+<rect x="726" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="748.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">070077</text>
+<rect x="772" y="241" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="794.0" y="253.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">31FFE3</text>
+<text x="24.0" y="272.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A900</text>
+<rect x="82" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="104.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">40050A</text>
+<rect x="128" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">760600</text>
+<rect x="174" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">070073</text>
+<rect x="220" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">31FFDF</text>
+<rect x="266" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">40050A</text>
+<rect x="312" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="334.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">780680</text>
+<rect x="358" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">07006F</text>
+<rect x="404" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">31FFDB</text>
+<rect x="450" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">40050A</text>
+<rect x="496" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">780700</text>
+<rect x="542" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">208005</text>
+<rect x="588" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">208C17</text>
+<rect x="634" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">78030E</text>
+<rect x="680" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E00006</text>
+<rect x="726" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="748.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">320008</text>
+<rect x="772" y="260" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="794.0" y="272.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">070066</text>
+<text x="24.0" y="291.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A920</text>
+<rect x="82" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="104.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">31FFD2</text>
+<rect x="128" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">40050A</text>
+<rect x="174" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E12807</text>
+<rect x="220" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">310001</text>
+<rect x="266" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">785A80</text>
+<rect x="312" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="334.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E90306</text>
+<rect x="358" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3AFFF8</text>
+<rect x="404" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2004E0</text>
+<rect x="450" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E0040A</text>
+<rect x="496" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3AFFD3</text>
+<rect x="542" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E0000B</text>
+<rect x="588" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3A000A</text>
+<rect x="634" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2A8001</text>
+<rect x="680" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E16001</text>
+<rect x="726" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="748.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">310007</text>
+<rect x="772" y="279" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="794.0" y="291.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200011</text>
+<text x="24.0" y="310.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A940</text>
+<rect x="82" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="104.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E16801</text>
+<rect x="128" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">320007</text>
+<rect x="174" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200021</text>
+<rect x="220" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E16801</text>
+<rect x="266" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">32000A</text>
+<rect x="312" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="334.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">37FFC7</text>
+<rect x="358" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB8480</text>
+<rect x="404" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200500</text>
+<rect x="450" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">37FFC4</text>
+<rect x="496" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E17061</text>
+<rect x="542" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3AFFC2</text>
+<rect x="588" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2FC001</text>
+<rect x="634" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">660481</text>
+<rect x="680" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2004B0</text>
+<rect x="726" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="748.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">37FFBE</text>
+<rect x="772" y="298" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="794.0" y="310.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200C11</text>
+<text x="24.0" y="329.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A960</text>
+<rect x="82" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="104.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E17001</text>
+<rect x="128" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3AFFBB</text>
+<rect x="174" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2007F1</text>
+<rect x="220" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">660081</text>
+<rect x="266" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3AFFB8</text>
+<rect x="312" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="334.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E0000C</text>
+<rect x="358" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3A000B</text>
+<rect x="404" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">208001</text>
+<rect x="450" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200040</text>
+<rect x="496" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">785880</text>
+<rect x="542" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200000</text>
+<rect x="588" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">785880</text>
+<rect x="634" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200A80</text>
+<rect x="680" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">785880</text>
+<rect x="726" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="748.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB5880</text>
+<rect x="772" y="317" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="794.0" y="329.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200000</text>
+<text x="24.0" y="348.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A980</text>
+<rect x="82" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="104.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">785880</text>
+<rect x="128" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB4880</text>
+<rect x="174" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB0500</text>
+<rect x="220" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E80009</text>
+<rect x="266" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">320010</text>
+<rect x="312" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="334.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2004E0</text>
+<rect x="358" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2FC001</text>
+<rect x="404" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">660081</text>
+<rect x="450" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E10809</text>
+<rect x="496" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3AFFA3</text>
+<rect x="542" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E00009</text>
+<rect x="588" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3A0005</text>
+<rect x="634" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E0000C</text>
+<rect x="680" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3AFF9F</text>
+<rect x="726" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="748.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2A4001</text>
+<rect x="772" y="336" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="794.0" y="348.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">070042</text>
+<text x="24.0" y="367.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A9A0</text>
+<rect x="82" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="104.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">750500</text>
+<rect x="128" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="150.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">780089</text>
+<rect x="174" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="196.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">07003F</text>
+<rect x="220" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="242.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB8480</text>
+<rect x="266" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="288.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">750500</text>
+<rect x="312" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="334.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">070041</text>
+<rect x="358" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="380.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">750500</text>
+<rect x="404" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="426.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">070059</text>
+<rect x="450" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="472.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">750500</text>
+<rect x="496" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="518.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2004B0</text>
+<rect x="542" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="564.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E0000A</text>
+<rect x="588" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="610.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">32FF91</text>
+<rect x="634" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200560</text>
+<rect x="680" y="355" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="367.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">37FF8F</text>
+<rect x="726" y="355" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="748.0" y="367.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A70008</text>
+<rect x="772" y="355" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="794.0" y="367.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">060000</text>
+<text x="24.0" y="386.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A9C0</text>
+<rect x="82" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="104.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">AE22CA</text>
+<rect x="128" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="150.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">060000</text>
+<rect x="174" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="196.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">07000A</text>
+<rect x="220" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="242.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">AF2042</text>
+<rect x="266" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="288.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">060000</text>
+<rect x="312" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="334.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">AE0223</text>
+<rect x="358" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="380.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">37FFFE</text>
+<rect x="404" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="426.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">227F61</text>
+<rect x="450" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="472.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">24F470</text>
+<rect x="496" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="518.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">781880</text>
+<rect x="542" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="564.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">257460</text>
+<rect x="588" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="610.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">780880</text>
+<rect x="634" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="656.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FE0000</text>
+<rect x="680" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="702.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EF2032</text>
+<rect x="726" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="748.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">2A7FC1</text>
+<rect x="772" y="374" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="794.0" y="386.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">BA0111</text>
+<text x="24.0" y="405.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00A9E0</text>
+<rect x="82" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="104.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">BA8191</text>
+<rect x="128" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="150.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EA8102</text>
+<rect x="174" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="196.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EAC183</text>
+<rect x="220" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="242.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FB8183</text>
+<rect x="266" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="288.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">710103</text>
+<rect x="312" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="334.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">060000</text>
+<rect x="358" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="380.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EF2100</text>
+<rect x="404" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="426.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FE6000</text>
+<rect x="450" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="472.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">AF0222</text>
+<rect x="496" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="518.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">370008</text>
+<rect x="542" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="564.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">AF2222</text>
+<rect x="588" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="610.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A92222</text>
+<rect x="634" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="656.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">800800</text>
+<rect x="680" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="702.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">27A121</text>
+<rect x="726" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="748.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E10001</text>
+<rect x="772" y="393" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="794.0" y="405.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">39FFF7</text>
+<text x="24.0" y="424.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00AA00</text>
+<rect x="82" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="104.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A80042</text>
+<rect x="128" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="150.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">060000</text>
+<rect x="174" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="196.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">801130</text>
+<rect x="220" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="242.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FB8000</text>
+<rect x="266" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="288.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A90042</text>
+<rect x="312" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="334.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">060000</text>
+<rect x="358" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="380.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">AF2223</text>
+<rect x="404" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="426.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">37FFFE</text>
+<rect x="450" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="472.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">881120</text>
+<rect x="496" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="518.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">060000</text>
+<rect x="542" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="564.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">784232</text>
+<rect x="588" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="610.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FB8204</text>
+<rect x="634" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="656.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">7842B2</text>
+<rect x="680" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="702.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FB8285</text>
+<rect x="726" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="748.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">784332</text>
+<rect x="772" y="412" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="794.0" y="424.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">DD3348</text>
+<text x="24.0" y="443.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00AA20</text>
+<rect x="82" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="104.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">728286</text>
+<rect x="128" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="150.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">060000</text>
+<rect x="174" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="196.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">240420</text>
+<rect x="220" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="242.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">883B00</text>
+<rect x="266" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="288.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EF2032</text>
+<rect x="312" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="334.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">BB0881</text>
+<rect x="358" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="380.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">37000B</text>
+<rect x="404" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="426.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">240010</text>
+<rect x="450" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="472.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">883B00</text>
+<rect x="496" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="518.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EF2032</text>
+<rect x="542" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="564.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">208002</text>
+<rect x="588" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="610.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">78018C</text>
+<rect x="634" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="656.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200407</text>
+<rect x="680" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="702.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">07FFEC</text>
+<rect x="726" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="748.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">BB0985</text>
+<rect x="772" y="431" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="794.0" y="443.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">BB9984</text>
+<text x="24.0" y="462.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00AA40</text>
+<rect x="82" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="104.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E90387</text>
+<rect x="128" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="150.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3AFFFB</text>
+<rect x="174" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="196.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FC0005</text>
+<rect x="220" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="242.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200550</text>
+<rect x="266" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="288.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">883B30</text>
+<rect x="312" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="334.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200AA0</text>
+<rect x="358" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="380.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">883B30</text>
+<rect x="404" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="426.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A8E761</text>
+<rect x="450" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="472.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">000000</text>
+<rect x="496" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="518.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">000000</text>
+<rect x="542" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="564.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">AFE761</text>
+<rect x="588" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="610.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">37FFFE</text>
+<rect x="634" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="656.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">803B00</text>
+<rect x="680" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="702.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">A9C761</text>
+<rect x="726" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="748.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">220001</text>
+<rect x="772" y="450" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="794.0" y="462.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">600001</text>
+<text x="24.0" y="481.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00AA60</text>
+<rect x="82" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="104.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">060000</text>
+<rect x="128" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="150.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EF2032</text>
+<rect x="174" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="196.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">208002</text>
+<rect x="220" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="242.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">78018C</text>
+<rect x="266" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="288.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200407</text>
+<rect x="312" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="334.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">07FFD4</text>
+<rect x="358" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="380.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">BA0013</text>
+<rect x="404" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="426.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E10005</text>
+<rect x="450" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="472.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3A0008</text>
+<rect x="496" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="518.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">BA8033</text>
+<rect x="542" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="564.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FB8000</text>
+<rect x="588" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="610.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E10004</text>
+<rect x="634" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="656.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3A0004</text>
+<rect x="680" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="702.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">E90387</text>
+<rect x="726" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="748.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">3AFFF6</text>
+<rect x="772" y="469" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="794.0" y="481.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB0000</text>
+<text x="24.0" y="500.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00AA80</text>
+<rect x="82" y="488" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="104.0" y="500.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">060000</text>
+<rect x="128" y="488" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="150.0" y="500.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">EB8000</text>
+<rect x="174" y="488" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="196.0" y="500.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">060000</text>
+<rect x="220" y="488" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="242.0" y="500.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FC0010</text>
+<rect x="266" y="488" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="288.0" y="500.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">227FA1</text>
+<rect x="312" y="488" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="334.0" y="500.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">200010</text>
+<rect x="358" y="488" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="380.0" y="500.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">784880</text>
+<rect x="404" y="488" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="426.0" y="500.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">227FC1</text>
+<rect x="450" y="488" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="472.0" y="500.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">259260</text>
+<rect x="496" y="488" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="518.0" y="500.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">781880</text>
+<rect x="542" y="488" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="564.0" y="500.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">231410</text>
+<rect x="588" y="488" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="610.0" y="500.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">780880</text>
+<rect x="634" y="488" width="44" height="17" rx="2" fill="#8c959f"/>
+<text x="656.0" y="500.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FE0000</text>
+<rect x="680" y="488" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="702.0" y="500.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="726" y="488" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="748.0" y="500.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="772" y="488" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="794.0" y="500.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<text x="24.0" y="519.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00AAA0</text>
+<rect x="82" y="507" width="734" height="17" rx="2" fill="#eef1f4"/>
+<text x="449.0" y="519.5" font-size="11.5" fill="#59636e" text-anchor="middle">00AAA0 to 00ABDE: 160 words, empty in both</text>
+<text x="24.0" y="538.5" font-size="11" fill="#59636e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00ABE0</text>
+<rect x="82" y="526" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="104.0" y="538.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="128" y="526" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="150.0" y="538.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="174" y="526" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="196.0" y="538.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="220" y="526" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="242.0" y="538.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="266" y="526" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="288.0" y="538.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="312" y="526" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="334.0" y="538.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="358" y="526" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="380.0" y="538.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="404" y="526" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="426.0" y="538.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="450" y="526" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="472.0" y="538.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="496" y="526" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="518.0" y="538.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="542" y="526" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="564.0" y="538.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="588" y="526" width="44" height="17" rx="2" fill="#eef1f4"/>
+<text x="610.0" y="538.5" font-size="11" fill="#59636e" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">FFFFFF</text>
+<rect x="634" y="526" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="656.0" y="538.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">37FF46</text>
+<rect x="680" y="526" width="44" height="17" rx="2" fill="#57606a"/>
+<text x="702.0" y="538.5" font-size="11" fill="#ffffff" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">000406</text>
+<rect x="726" y="526" width="44" height="17" rx="2" fill="#f5c542" stroke="#9a6700" stroke-width="1.5"/>
+<text x="748.0" y="538.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">00F9DF</text>
+<rect x="772" y="526" width="44" height="17" rx="2" fill="#f5c542" stroke="#9a6700" stroke-width="1.5"/>
+<text x="794.0" y="538.5" font-size="11" fill="#1f2328" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace">003F7F</text>
+</svg>

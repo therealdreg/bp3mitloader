@@ -1,0 +1,6 @@
+*.hex -text
+*.py text eol=lf
+*.exe binary
+*.jpg binary
+*.jpeg binary
+buzzloader/buzzloader_* binary
